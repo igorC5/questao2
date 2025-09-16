@@ -1,5 +1,6 @@
 import entidades.Pessoa
 import org.example.crud.EntidadeJDBC
+import org.example.entidades.Cliente
 
 // IGOR CANDIDO RA:60003932
 // JHAYMES 60001848
@@ -27,7 +28,7 @@ fun criarTabela() {
 }
 
 fun cadastrarCliente() {
-    val t = Pessoa(
+    val t = Cliente(
         nome = "IGOR"
     )
 
