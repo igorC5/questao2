@@ -4,6 +4,7 @@ import java.math.BigDecimal
 // JHAYMES 60001848
 // EDUARDO BELISKI 60000775
 // BRUNO VENZO 60002801
+// CLEITON JUSTO 60000434
 
 fun main() {
     val jdbc = EntidadeJDBC(
